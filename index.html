@@ -69,7 +69,7 @@
       letter-spacing: 0.5px;
     }
 
-    /* Swiper slider container (Bridget-style mousewheel slider) */
+    /* Swiper slider container */
     .swiper {
       width: 100%;
       height: 520px;
@@ -115,7 +115,7 @@
     <h1 class="hero-title">ART & CRAFT PORTFOLIO</h1>
     <p class="hero-bio">
       Specialized in Japanese calligraphy, custom painting, and precision hand-engraving. 
-      Click below to explore the collection.
+      Click below to explore the collections.
     </p>
     <div class="nav-buttons">
       <a href="#engraving" class="nav-btn">Engraving Works</a>
@@ -123,23 +123,69 @@
     </div>
   </div>
 
-  <!-- 2. Section 1: Custom Engraving -->
+  <!-- 2. Section 1: Custom Engraving (12 Photos) -->
   <section id="engraving" class="portfolio-section">
     <h2 class="section-title">Engraving Works</h2>
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <!-- Replace with your actual engraving image filenames -->
-        <div class="swiper-slide"><img src="engrave-1.jpg" alt="Engraving Artwork 1"></div>
-        <div class="swiper-slide"><img src="engrave-2.jpg" alt="Engraving Artwork 2"></div>
-        <div class="swiper-slide"><img src="engrave-3.jpg" alt="Engraving Artwork 3"></div>
+        <div class="swiper-slide"><img src="engrave-1.jpg" alt="Engraving 1"></div>
+        <div class="swiper-slide"><img src="engrave-2.jpg" alt="Engraving 2"></div>
+        <div class="swiper-slide"><img src="engrave-3.jpg" alt="Engraving 3"></div>
+        <div class="swiper-slide"><img src="engrave-4.jpg" alt="Engraving 4"></div>
+        <div class="swiper-slide"><img src="engrave-5.jpg" alt="Engraving 5"></div>
+        <div class="swiper-slide"><img src="engrave-6.jpg" alt="Engraving 6"></div>
+        <div class="swiper-slide"><img src="engrave-7.jpg" alt="Engraving 7"></div>
+        <div class="swiper-slide"><img src="engrave-8.jpg" alt="Engraving 8"></div>
+        <div class="swiper-slide"><img src="engrave-9.jpg" alt="Engraving 9"></div>
+        <div class="swiper-slide"><img src="engrave-10.jpg" alt="Engraving 10"></div>
+        <div class="swiper-slide"><img src="engrave-11.jpg" alt="Engraving 11"></div>
+        <div class="swiper-slide"><img src="engrave-12.jpg" alt="Engraving 12"></div>
       </div>
       <div class="swiper-pagination"></div>
     </div>
   </section>
 
-  <!-- 3. Section 2: Calligraphy & Painting -->
+  <!-- 3. Section 2: Calligraphy & Painting (12 Photos) -->
   <section id="calligraphy" class="portfolio-section">
     <h2 class="section-title">Calligraphy & Painting</h2>
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <!-- Replace with your actual
+        <div class="swiper-slide"><img src="art-1.jpg" alt="Artwork 1"></div>
+        <div class="swiper-slide"><img src="art-2.jpg" alt="Artwork 2"></div>
+        <div class="swiper-slide"><img src="art-3.jpg" alt="Artwork 3"></div>
+        <div class="swiper-slide"><img src="art-4.jpg" alt="Artwork 4"></div>
+        <div class="swiper-slide"><img src="art-5.jpg" alt="Artwork 5"></div>
+        <div class="swiper-slide"><img src="art-6.jpg" alt="Artwork 6"></div>
+        <div class="swiper-slide"><img src="art-7.jpg" alt="Artwork 7"></div>
+        <div class="swiper-slide"><img src="art-8.jpg" alt="Artwork 8"></div>
+        <div class="swiper-slide"><img src="art-9.jpg" alt="Artwork 9"></div>
+        <div class="swiper-slide"><img src="art-10.jpg" alt="Artwork 10"></div>
+        <div class="swiper-slide"><img src="art-11.jpg" alt="Artwork 11"></div>
+        <div class="swiper-slide"><img src="art-12.jpg" alt="Artwork 12"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- 4. Footer & Contact Information -->
+  <div class="footer-section">
+    <p>Contact & Inquiries: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    <p>? 2026 All Rights Reserved.</p>
+  </div>
+
+  <!-- 5. Swiper JS Plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    // Initialize Swiper sliders for all portfolio sections
+    var swiper = new Swiper(".mySwiper", {
+      direction: "horizontal",
+      loop: true,
+      mousewheel: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>
